@@ -5,7 +5,7 @@ function App() {
     "X-Naver-Client-Id": "XRupn7GoMOzhZZQE_RD6",
     "X-Naver-Client-Secret": "FxfJq0rU7f",
   };
-
+  ("test");
   getMovieList();
   getBookList();
   return (
