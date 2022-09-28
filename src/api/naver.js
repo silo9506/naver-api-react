@@ -15,8 +15,8 @@ export const getMovieList = async () => {
 export const getBookList = async () => {
   const response = await fetch("/v1/search/book.json?query=1", {
     headers: headers,
-  })
-    .then((response) => response.json())
-    .then((data) => console.log(data))
-    .catch((error) => console.log(error));
+  });
+
+  let data = await response.json();
+  console.log(data);
 };
