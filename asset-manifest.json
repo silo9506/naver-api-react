@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/naver-api-react/static/css/main.754ebb54.css",
-    "main.js": "/naver-api-react/static/js/main.415de55b.js",
+    "main.js": "/naver-api-react/static/js/main.d4e6c118.js",
     "static/js/787.1b4ddb98.chunk.js": "/naver-api-react/static/js/787.1b4ddb98.chunk.js",
     "index.html": "/naver-api-react/index.html",
     "main.754ebb54.css.map": "/naver-api-react/static/css/main.754ebb54.css.map",
-    "main.415de55b.js.map": "/naver-api-react/static/js/main.415de55b.js.map",
+    "main.d4e6c118.js.map": "/naver-api-react/static/js/main.d4e6c118.js.map",
     "787.1b4ddb98.chunk.js.map": "/naver-api-react/static/js/787.1b4ddb98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.754ebb54.css",
-    "static/js/main.415de55b.js"
+    "static/js/main.d4e6c118.js"
   ]
 }
