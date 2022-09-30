@@ -1,12 +1,13 @@
-import { getMovieList } from "./api/naver";
-import { getBookList } from "./api/naver";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./components/templates/Main";
+
 function App() {
-  getMovieList();
-  getBookList();
   return (
-    <div>
-      <h1>api test</h1>
-    </div>
+    <BrowserRouter basename={process.env.public_url}>
+      <Routes>
+        <Route path="/" element={<Main />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
